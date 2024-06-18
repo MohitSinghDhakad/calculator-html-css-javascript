@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    width: 600px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 13px;
+}
+
+
+.calculator{
+    background-color: skyblue;
+    width: 600px;
+    border-radius: 13px;
+}
+.calculator button{
+    font-size: 50px;
+    padding: 13px;
+    height: 76px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 23px;
+}
+.row{
+    text-align: center;
+    padding: 3px 0;
+}
+
+
+.display{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.inputDisplay{
+   font-size: 50px;
+   border-radius: 10px;
+}
